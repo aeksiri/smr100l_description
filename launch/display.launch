@@ -3,7 +3,7 @@
     name="model" />
   <arg
     name="gui"
-    default="False" />
+    default="True" />
   <param
     name="robot_description"
     textfile="$(find smr100l_description)/urdf/smr100l_description.urdf" />
@@ -11,16 +11,16 @@
     name="use_gui"
     value="$(arg gui)" />
   <node
-    name="joint_state_publisher"
-    pkg="joint_state_publisher"
-    type="joint_state_publisher" />
+    name="joint_state_publisher_gui"
+    pkg="joint_state_publisher_gui"
+    type="joint_state_publisher_gui" />
   <node
     name="robot_state_publisher"
     pkg="robot_state_publisher"
-    type="state_publisher" />
+    type="robot_state_publisher" />
   <node
     name="rviz"
     pkg="rviz"
     type="rviz"
-    args="-d $(find smr100l_description)/urdf.rviz" />
+    args="-d $(find smr100l_description)/rviz/display.rviz" />
 </launch>
