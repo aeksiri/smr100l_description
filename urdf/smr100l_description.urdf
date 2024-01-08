@@ -190,8 +190,9 @@
         xyz="0 0 0"
         rpy="0 0 0" />
       <geometry>
-        <mesh
-          filename="package://smr100l_description/meshes/caster_front_left_wheel_link.STL" />
+        <!-- <mesh
+          filename="package://smr100l_description/meshes/caster_front_left_wheel_link.STL" /> -->
+        <cylinder length="0.039" radius="0.0625"/>
       </geometry>
     </collision>
   </link>
@@ -407,8 +408,9 @@
         xyz="0 0 0"
         rpy="0 0 0" />
       <geometry>
-        <mesh
-          filename="package://smr100l_description/meshes/caster_front_right_wheel_link.STL" />
+        <!-- <mesh
+          filename="package://smr100l_description/meshes/caster_front_right_wheel_link.STL" /> -->
+        <cylinder length="0.039" radius="0.0625"/>
       </geometry>
     </collision>
   </link>
@@ -566,8 +568,9 @@
         xyz="0 0 0"
         rpy="0 0 0" />
       <geometry>
-        <mesh
-          filename="package://smr100l_description/meshes/caster_rear_left_wheel_link.STL" />
+        <!-- <mesh
+          filename="package://smr100l_description/meshes/caster_rear_left_wheel_link.STL" /> -->
+        <cylinder length="0.039" radius="0.0625"/>
       </geometry>
     </collision>
   </link>
@@ -672,8 +675,9 @@
         xyz="0 0 0"
         rpy="0 0 0" />
       <geometry>
-        <mesh
-          filename="package://smr100l_description/meshes/caster_rear_right_wheel_link.STL" />
+        <!-- <mesh
+          filename="package://smr100l_description/meshes/caster_rear_right_wheel_link.STL" /> -->
+        <cylinder length="0.039" radius="0.0625"/>
       </geometry>
     </collision>
   </link>
